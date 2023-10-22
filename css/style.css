@@ -52,3 +52,32 @@ nav {
     text-transform: uppercase;
     padding: 10px 20px;
 }
+
+.nav_link li a {
+    color: #C4C4C4;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav_link li a:hover {
+    color: #058B8C;
+    font-weight: 700;
+}
+
+.nav_link li:last-child a {
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
