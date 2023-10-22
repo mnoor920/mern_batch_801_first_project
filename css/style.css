@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page_width {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_link li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 15px;
+}
+
+.nav_link li a {
+    color: #C4C4C4;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav_link li a:hover {
+    color: #058B8C;
+    font-weight: 700;
+}
+
+.nav_link li:last-child a {
+    border-radius: 48px;
+    background: #058B8C;
+    box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
