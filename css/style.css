@@ -81,3 +81,93 @@ nav {
     text-transform: uppercase;
     padding: 10px 20px;
 }
+
+
+/* Footer */
+.outer_footer {
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+
+.outer_footer .footer_column_one p {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8F8F8F;
+    margin-top: 1rem;
+}
+
+.footer_column_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.footer_column_two li,
+.footer_column_three li {
+    list-style: none;
+    padding: 15px;
+}
+
+.footer_column_two li a,
+.footer_column_three li a {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8F8F8F;
+    text-decoration: none;
+}
+
+.footer_column_two li a:hover,
+.footer_column_three li a:hover {
+    color: #000000;
+    font-weight: 600;
+}
+
+.news_letter {
+    display: flex;
+}
+
+.news_letter input {
+    width: 70%;
+    border: 2px solid rgba(5, 139, 140, 1);
+    border-radius: 50px;
+    height: 45px;
+    padding-left: 1rem;
+}
+
+.news_letter input::placeholder {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8F8F8F;
+}
+
+.news_letter button {
+    width: 27%;
+    margin-left: 2px;
+    box-shadow: 3px 3px 10px 0px #00000033;
+    box-shadow: 3px 4px 10px 0px #00000033 inset;
+    background-color: #058B8C;
+    color: #fff;
+    border-radius: 50px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    border: none;
+
+}
