@@ -316,3 +316,151 @@ nav {
     object-fit: cover;
     border-radius: 50%;
 }
+
+
+/* features */
+
+.features_div {
+    max-width: 900px;
+    margin: auto;
+    padding: 70px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.featur_card {
+    text-align: center;
+    margin: auto;
+}
+
+.featur_card .img_section {
+    width: 170px;
+    height: 170px;
+    padding: 50px;
+    border-radius: 300px;
+    box-shadow: 0px 0px 50px 0px #00000014;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.featur_card p {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 142.857% */
+}
+
+
+/* services */
+.services_section {
+    padding: 70px 0px;
+}
+
+.services_section h2 {
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+
+.services_section h2 span {
+    color: #058B8C;
+    font-family: Rubik;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.services_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.services_card .product_card {
+    border-radius: 30px;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    border-radius: 30px;
+}
+
+.services_card .product_card .product_img {
+    width: 100%;
+    height: 100% !important;
+}
+
+.services_card .product_card .product_img img {
+    width: 100%;
+    height: 100% !important;
+    border-radius: 30px;
+}
+
+.services_card .product_card .over_lay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 12.85%, #FFF 75.55%);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    padding: 15px;
+}
+
+.services_card .product_card .over_lay .text_section {
+    text-align: center;
+}
+
+.services_card .product_card .over_lay .text_section h2 {
+    color: #000;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    /* 125% */
+}
+
+.services_card .product_card .over_lay .text_section button {
+    border-radius: 48px;
+    border: 2px solid #FFF;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    display: none;
+}
+
+.services_card .product_card:hover .over_lay {
+    background: rgba(30, 30, 30, 0.6);
+    align-items: center;
+    cursor: pointer;
+}
+
+.services_card .product_card:hover .over_lay h2 {
+    color: white;
+}
+
+.services_card .product_card:hover .over_lay button {
+    display: block;
+}
